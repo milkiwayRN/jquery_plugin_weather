@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li>London is the capital of GB</li>
+      <li>Minsk is the capital and largest city of Belarus</li>
+      <li>Rostov is a port city and the administrative center of Rostov Oblast and the Southern Federal District of Russia</li>
+      <li>Odessa is the third most populous city of Ukraine and a major tourism center</li>
+      <li>Krasnodar is best place on the earth</li>
+      <li>Vladivostok is far away</li>
+      <li>Paris is one of most beautiful cities of the world</li>
+    </ul>
+    <button id="example">$('ul').weather({cities: ['London','New York','Moscow','Minsk','Krasnodar'], direction: 'bottom'})</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="ul_plugin.js"></script>
+    <script>
+      $("#example").on('click',function(){$('ul').weather({cities: ['London','New York','Moscow','Minsk','Krasnodar'], direction: 'bottom'})});
+    </script>
+  </body>
+</html>
